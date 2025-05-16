@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from apscheduler.schedulers.background import BackgroundScheduler
 import datetime
 
-TOKEN = os.environ.get("TOKEN")  # یا مستقیماً بنویس "توکن‌ات"
+TOKEN = os.environ.get("8110943278:AAG_qMHUXyVBB1d3r5WhYl2VsQk9LIiu4yw")  # یا مستقیماً بنویس "توکن‌ات"
 
 scheduler = BackgroundScheduler()
 scheduler.start()
